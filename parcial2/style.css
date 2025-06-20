@@ -400,6 +400,12 @@ body {
     line-height: 1.7;
 }
 
+.services-footer {
+    background-color: var(--services-bg);
+    padding-top: 30px;
+    color: var(--text-light);
+}
+
 /* Responsive para la seccion Servicios */
 @media (max-width: 992px) {
     .services-section {
@@ -456,6 +462,12 @@ body {
 
 .sectors-section .card-header {
     background-color: var(--sectors-card-header-bg);
+}
+
+.sectors-footer {
+    background-color: var(--sectors-bg);
+    padding-top: 30px;
+    color: var(--text-light);
 }
 
 @media (max-width: 480px) {
@@ -689,6 +701,9 @@ textarea.input-field {
     justify-content: space-between;
     align-items: center;
     font-size: 0.85em;
+}
+
+.footer-info {
     color: var(--footer-info-color);
 }
 
