@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             clearError(email, emailError);
         }
 
-        // -Validación de Mensaje (opcional, pero con mínimo de caracteres)
+        // Validación de Mensaje (opcional, pero con mínimo de caracteres)
         if (mensaje.value.trim().length > 0 && mensaje.value.trim().length < 10) {
             showError(mensaje, 'El mensaje debe tener al menos 10 caracteres o estar vacío.', mensajeError);
             isValid = false;
