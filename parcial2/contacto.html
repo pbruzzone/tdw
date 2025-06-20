@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaSoft - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">MegaSoft</div> <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="sectores.html">Sectores</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li> </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content contact-page-bg">
+        <div class="container contact-container">
+            <h1 class="contact-title">Contacto</h1>
+
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" class="input-field">
+                        <span class="error-message" id="nombreError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido" class="input-field">
+                        <span class="error-message" id="apellidoError"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" class="input-field">
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" class="input-field"></textarea>
+                    <span class="error-message" id="mensajeError"></span>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+
+            <div class="social-icons-contact">
+                <a href="#" class="social-icon-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </main>
+    <footer class="contact-footer">
+        <div class="container footer-grid">
+            <div class="footer-info-item">
+                Dirección: Av. Tucuman 1, Capital Federal
+            </div>
+            <div class="footer-info-item">
+                Tel: 5411 1111 1111
+            </div>
+            <div class="footer-info-item">
+                Email: info@megasoft.com
+            </div>
+        </div>
+        <div class="footer-bottom-bar">
+            <div class="container footer-bottom-content">
+                <div class="copyright">©2024 MegaSoft</div>
+            </div>
+        </div>
+    </footer>
+    <script src="contacto.js"></script>
+</body>
+</html>

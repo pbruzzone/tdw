@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.calculadora {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.calculadora-pantalla {
+    width: 100%; 
+    height: 60px;
+    background-color: #252525;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box; 
+}
+
+.calculadora-teclas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background-color: #ccc;
+}
+
+.calculadora-teclas button {
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.calculadora-teclas button:hover {
+    background-color: #e0e0e0;
+}
+
+.calculadora-teclas .operador {
+    background-color: #f7950c;
+    color: #fff;
+}
+
+.calculadora-teclas .operador:hover {
+    background-color: #e0840b;
+}
+
+.calculadora-teclas .ac {
+    background-color: #d11d1d;
+    color: #fff;
+}
+
+.calculadora-teclas .ac:hover {
+    background-color: #b31a1a;
+}
+
+.calculadora-teclas .signo-igual {
+    background-color: #0d8c36;
+    color: #fff;
+}
+
+.calculadora-teclas .signo-igual:hover {
+    background-color: #0b752e;
+}
