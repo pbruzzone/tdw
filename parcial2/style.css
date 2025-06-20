@@ -8,8 +8,8 @@
     --box-background: rgba(255, 255, 255, 0.95); 
     --accent-blue: #34495e;
     --button-red: #e74c3c;
-    --services-bg-dark: #2c3e50; 
-    --card-header-bg: #34495e; 
+    --services-bg: #3e2c50; 
+    --card-header-bg: #4a3e5e; 
     --card-body-bg: #f9f9f9; 
     --contact-bg: #2c3e50; 
     --input-border-color: #5d6d8d; 
@@ -17,6 +17,8 @@
     --social-icon-color: #8fa2bf; 
     --footer-info-color: #a7b7d0; 
     --chat-button-bg: #3498db; 
+    --sectors-bg: #2c503e; 
+    --sectors-card-header-bg: #3e504a; 
 }
 
 /* Estilos básicos */
@@ -331,7 +333,7 @@ body {
 
 /* Seccion Servicios */
 .services-section {
-    background-color: var(--services-bg-dark);
+    background-color: var(--services-bg);
     padding: 80px 0; 
     color: var(--text-light);
     text-align: center;
@@ -447,6 +449,15 @@ body {
     }
 }
 
+/* Seccion Sectores */
+.sectors-section {
+    background-color: var(--sectors-bg);
+}
+
+.sectors-section .card-header {
+    background-color: var(--sectors-card-header-bg);
+}
+
 @media (max-width: 480px) {
     .services-section .section-title {
         font-size: 2em;
@@ -479,7 +490,8 @@ body {
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
-    padding-top: 20px; 
+    padding-top: 20px;
+    color: var(--text-dark); 
 }
 
 .about-section-content p {
@@ -490,6 +502,7 @@ body {
     max-width: 900px; 
     margin-left: auto;
     margin-right: auto;
+    color: var(--text-dark);
 }
 
 /* Responsive para la página de Nosotros */
