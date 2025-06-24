@@ -496,8 +496,14 @@ textarea.input-field {
     .text-box p { font-size: 0.9em; }
     .more-info-button { font-size: 0.9em; padding: 8px 18px; }
 
+    .page-content,
+    .contact-page-bg,
+    .services-section,
+    .sectors-section {
+        padding-top: 120px; 
+    }
+
     /* Servicios */
-    .services-section { padding: 40px 0; }
     .services-section .section-title { font-size: 2.5em; }
     .services-section .section-intro { font-size: 1em; margin-bottom: 30px; }
     .services-grid { grid-template-columns: 1fr; padding: 0 20px; }
@@ -507,12 +513,11 @@ textarea.input-field {
     .service-card .card-body p { font-size: 0.95em; }
 
     /* Nosotros */
-    .page-content { padding: 80px 0 40px 0; }
+    .page-content { padding-bottom: 40px;}
     .page-title { font-size: 2em; margin-bottom: 30px; }
     .about-section-content p { font-size: 0.95em; padding: 0 10px; }
 
     /* Contacto */
-    .contact-page-bg { padding-top: 80px; }
     .contact-title { font-size: 2em; }
     .form-row { flex-direction: column; gap: 0; }
     .form-group { margin-bottom: 20px; }
@@ -535,6 +540,13 @@ textarea.input-field {
     .more-info-button { font-size: 0.8em; padding: 6px 12px; }
     .more-info-button .plus-icon { font-size: 1.1em; margin-right: 5px; }
 
+    .page-content,
+    .contact-page-bg,
+    .services-section,
+    .sectors-section {
+        padding-top: 120px; 
+    }
+
     /* Servicios */
     .services-section .section-title { font-size: 2em; }
     .services-section .section-intro { font-size: 0.9em; margin-bottom: 25px; }
@@ -542,12 +554,11 @@ textarea.input-field {
     .service-card .card-body p { font-size: 0.9em; }
 
     /* Nosotros */
-    .page-content { padding: 70px 0 30px 0; }
+    .page-content { padding-bottom: 30px}
     .page-title { font-size: 1.8em; }
     .about-section-content p { font-size: 0.9em; }
 
     /* Contacto */
-    .contact-page-bg { padding-top: 70px; }
     .contact-title { font-size: 1.8em; }
     .form-group label, .input-field { font-size: 1em; }
     .social-icons-contact { font-size: 1.8em; gap: 15px; }
