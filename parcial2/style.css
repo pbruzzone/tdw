@@ -528,8 +528,20 @@ textarea.input-field {
 
 @media (max-width: 480px) {
     /* Navbar */
+    .navbar nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+    .navbar nav ul li {
+        margin: 5px 8px;
+    }
+    .navbar nav ul li a {
+        font-size: 1em;
+        padding: 4px 6px;
+        word-break: break-word;
+    }
     .navbar .logo { font-size: 1.5em; }
-    .navbar nav ul li a { font-size: 0.9em; }
 
     /* Hero */
     .hero { margin-top: 120px; }
@@ -544,7 +556,7 @@ textarea.input-field {
     .contact-page-bg,
     .services-section,
     .sectors-section {
-        padding-top: 120px; 
+        padding-top: 160px; 
     }
 
     /* Servicios */
