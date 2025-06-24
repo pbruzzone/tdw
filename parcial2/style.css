@@ -96,7 +96,7 @@ a {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     margin-top: 70px;
 }
@@ -177,7 +177,7 @@ a {
 /* Servicios */
 .services-section {
     background-color: var(--services-bg);
-    padding: 80px 0;
+    padding: 20px 0;
     color: var(--text-light);
     text-align: center;
 }
@@ -236,7 +236,6 @@ a {
 }
 .services-footer {
     background-color: var(--services-bg);
-    padding-top: 30px;
     color: var(--text-light);
 }
 
@@ -249,13 +248,13 @@ a {
 }
 .sectors-footer {
     background-color: var(--sectors-bg);
-    padding-top: 30px;
     color: var(--text-light);
 }
 
 /* Nosotros */
 .page-content {
-    padding: 100px 0 60px 0;
+    margin-top: 100px;
+    padding-bottom: 30px;
     min-height: calc(100vh - 70px);
     color: var(--text-light);
 }
@@ -383,7 +382,6 @@ textarea.input-field {
 /* Footer */
 .contact-footer {
     background-color: var(--contact-bg);
-    padding-top: 30px;
     color: var(--text-light);
 }
 .footer-grid {
@@ -445,7 +443,6 @@ textarea.input-field {
     .text-box p { font-size: 0.95em; }
 
     /* Servicios */
-    .services-section { padding: 60px 0; }
     .services-section .section-title { font-size: 3em; }
     .services-section .section-intro { font-size: 1.1em; margin-bottom: 40px; }
     .services-grid { gap: 25px; }
@@ -489,19 +486,14 @@ textarea.input-field {
     .navbar nav ul li { margin: 0 10px; }
 
     /* Hero */
-    .hero { margin-top: 100px; height: auto; min-height: 100vh; }
+    .hero { margin-top: 100px;}
     .text-box { width: 95%; padding: 20px 25px; }
     .text-box h1 { font-size: 1.8em; }
     .text-box h2 { font-size: 1.2em; }
     .text-box p { font-size: 0.9em; }
     .more-info-button { font-size: 0.9em; padding: 8px 18px; }
 
-    .page-content,
-    .contact-page-bg,
-    .services-section,
-    .sectors-section {
-        padding-top: 120px; 
-    }
+    .page-content { margin-top: 120px; padding-bottom: 40px; }
 
     /* Servicios */
     .services-section .section-title { font-size: 2.5em; }
@@ -513,7 +505,6 @@ textarea.input-field {
     .service-card .card-body p { font-size: 0.95em; }
 
     /* Nosotros */
-    .page-content { padding-bottom: 40px;}
     .page-title { font-size: 2em; margin-bottom: 30px; }
     .about-section-content p { font-size: 0.95em; padding: 0 10px; }
 
@@ -544,7 +535,7 @@ textarea.input-field {
     .navbar .logo { font-size: 1.5em; }
 
     /* Hero */
-    .hero { margin-top: 120px; }
+    .hero { margin-top: 160px; }
     .text-box h1 { font-size: 1.5em; }
     .text-box h2 { font-size: 1em; }
     .text-box p { font-size: 0.85em; }
@@ -552,12 +543,7 @@ textarea.input-field {
     .more-info-button { font-size: 0.8em; padding: 6px 12px; }
     .more-info-button .plus-icon { font-size: 1.1em; margin-right: 5px; }
 
-    .page-content,
-    .contact-page-bg,
-    .services-section,
-    .sectors-section {
-        padding-top: 160px; 
-    }
+    .page-content { margin-top: 170px; padding-bottom: 30px;}
 
     /* Servicios */
     .services-section .section-title { font-size: 2em; }
@@ -566,7 +552,6 @@ textarea.input-field {
     .service-card .card-body p { font-size: 0.9em; }
 
     /* Nosotros */
-    .page-content { padding-bottom: 30px}
     .page-title { font-size: 1.8em; }
     .about-section-content p { font-size: 0.9em; }
 
