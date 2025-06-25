@@ -184,6 +184,7 @@ a {
 .services-section .section-title {
     font-size: 3.5em;
     font-weight: 700;
+    padding-top: 20px;
     margin-bottom: 20px;
     color: var(--text-light);
 }
@@ -492,7 +493,7 @@ textarea.input-field {
     .text-box p { font-size: 0.9em; }
     .more-info-button { font-size: 0.9em; padding: 8px 18px; }
 
-    .page-content { padding-top: 120px; padding-bottom: 40px; }
+    .page-content { padding-top: 130px; padding-bottom: 40px; }
 
     /* Servicios */
     .services-section .section-title { font-size: 2.5em; }
@@ -534,7 +535,7 @@ textarea.input-field {
     .navbar .logo { font-size: 1.5em; }
 
     /* Hero */
-    .hero { padding-top: 170px; }
+    .hero { padding-top: 168px; }
     .text-box h1 { font-size: 1.5em; }
     .text-box h2 { font-size: 1em; }
     .text-box p { font-size: 0.85em; }
@@ -542,7 +543,7 @@ textarea.input-field {
     .more-info-button { font-size: 0.8em; padding: 6px 12px; }
     .more-info-button .plus-icon { font-size: 1.1em; margin-right: 5px; }
 
-    .page-content { padding-top: 170px; padding-bottom: 30px;}
+    .page-content { padding-top: 168px; padding-bottom: 30px;}
 
     /* Servicios */
     .services-section .section-title { font-size: 2em; }
